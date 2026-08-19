@@ -1,21 +1,22 @@
+import {Link} from 'react-router-dom';
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="#">Szuu1</a>
+                <Link className="navbar-brand" to="/Home">Szuu1</Link>
 
                 <ul className="navbar-nav flex-row gap-4">
                     <li className="nav-item">
-                        <a className="navbar-brand" href="#">Home</a>
+                        <Link className="navbar-brand" to="/Home">Home</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="navbar-brand" href="#">About</a>
+                        <Link className="navbar-brand" to="/About">About</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="navbar-brand" href="#">Contact</a>
+                        <Link className="navbar-brand" to="/Contact">Contact</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="navbar-brand" href="#">Interests</a>
+                        <Link className="navbar-brand" to="/Interests">Interests</Link>
                     </li>
                 </ul>
             </div>
