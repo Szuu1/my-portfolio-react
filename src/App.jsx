@@ -1,7 +1,7 @@
 import Navbar from './layout/Navbar';
 import Sidebar from './layout/Sidebar';
-import Sample from './Sample';
 import Footer from "./layout/Footer";
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
             <Sidebar />
 
             <main className="flex-grow-1">
-              <Sample />
+              <Outlet />
             </main>
           </div>
           <Footer />

@@ -15,8 +15,7 @@ export default function Home() {
 
       {showIntro && (
         <p>
-          I am interested in web development and creating applications
-          using React.
+          I am a Christopher B. Suan, a 3rd-year Computer Science student at Pamantasan ng Cabuyao. I have a strong passion for technology and programming, and I am constantly seeking opportunities to learn and grow in this field. My goal is to become a skilled software developer and contribute to innovative projects that make a positive impact on society.
         </p>
       )}
     </div>
